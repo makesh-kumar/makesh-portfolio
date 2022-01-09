@@ -4,7 +4,7 @@ import { BsList } from "react-icons/bs";
 
 import logo from "../../assets/M-logos_black.png";
 function Header() {
-  const [isMobileMenu, setMobileMenu] = useState(true);
+  const [isMobileMenu, setMobileMenu] = useState(false);
 
   const headerMenu = [
     {
