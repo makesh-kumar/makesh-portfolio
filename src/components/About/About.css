@@ -1,0 +1,44 @@
+.about {
+  height: 70vh;
+  /* border: 1px solid black; */
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.about__logo {
+  /* border: 1px solid black; */
+  width: 30%;
+  padding-top: 30px;
+  transition: all 1s;
+}
+.about__content {
+  padding: 10px;
+  /* border: 1px solid black; */
+  width: 70%;
+  font-size: large;
+  line-height: 30px;
+  transition: all 2s;
+}
+
+.about__logo:hover {
+  transform: scale(1.1);
+  /* width: 40%; */
+}
+
+.about__content:hover {
+  transform: translate(10px, 10px);
+}
+
+@media all and (max-width: 500px) {
+  .about {
+    height: 100vh;
+    flex-direction: column;
+  }
+  .about__logo {
+    width: 100%;
+  }
+  .about__content {
+    width: 100%;
+  }
+}
