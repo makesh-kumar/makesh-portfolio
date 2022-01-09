@@ -1,10 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { MdAccessibility } from "react-icons/md";
 import {
-  FaUserTie,
-  FaRegCalendarAlt,
-  FaUserGraduate,
   FaRegEnvelope,
   FaPhone,
   FaGithub,
@@ -13,8 +9,6 @@ import {
   FaFacebookF,
   FaWhatsapp,
   FaCodepen,
-  FaBusinessTime,
-  FaHome,
 } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
 
