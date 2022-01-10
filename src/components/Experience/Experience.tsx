@@ -25,15 +25,15 @@ function Experience() {
           </p>
           <br />
           💡Involved in requirement analysis with UX Designers and Architects
-          for new feature implementation and prepared LLD and HLD for
-          documentation purposes. <br />
+          for new feature implementation and prepared LLD for documentation
+          purposes. <br />
           💡 Developed responsive screens in Angular framework similar to UX
           design wireframes provided and by following w3c standards. <br />
           💡Tested all the developed screens by writing unit tests and
           maintained code coverage above 90%.
           <br />
-          💡 Refactored old unit test cases using ng-bullet to increase the
-          execution speed of tests during build. <br />
+          💡 Refactored old unit test cases to increase the execution speed of
+          tests during build. <br />
           💡Implemented many re-usable UI components and business logic to
           increase the productivity of the team. <br />
           💡 Reduced high severity defects count to less than 10% during every
