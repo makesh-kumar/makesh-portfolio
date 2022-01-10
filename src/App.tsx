@@ -13,29 +13,12 @@ function App() {
       <div id="header" className="main__header">
         <Header />
       </div>
-      {/* <div id="home" className="home"> */}
       <Home />
-      {/* </div> */}
-
-      {/* <div id="about" className="about"> */}
       <About />
-      {/* </div> */}
-
-      {/* <div id="skills" className="skills"> */}
       <Skills />
-      {/* </div> */}
-
-      {/* <div id="experience"> */}
       <Experience />
-      {/* </div> */}
-
-      {/* <div id="education"> */}
       <Education />
-      {/* </div> */}
-
-      {/* <div id="footer"> */}
       <Footer />
-      {/* </div> */}
     </div>
   );
 }

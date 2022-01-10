@@ -1,25 +1,21 @@
 .skills {
   height: 50vh;
-  /* border: 1px solid black; */
   margin: 20px;
   display: flex;
-  /* grid-template-columns: 1fr 2fr; */
   gap: 20px;
 }
 
 .skills__icon {
-  /* border: 1px solid black; */
   text-align: center;
   font-weight: 400;
   width: 30%;
   transition: all 1s;
 }
 .skills__list {
-  /* border: 1px solid black; */
   width: 70%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 2px;
   transition: all 1s;
 }
@@ -42,7 +38,6 @@
 
 .skills__icon:hover {
   transform: scale(1.1);
-  /* width: 40%; */
 }
 .skills__list:hover {
   transform: translate(-10px, -10px);

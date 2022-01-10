@@ -68,7 +68,6 @@ function Header() {
         <div
           onClick={(e) => {
             setMobileMenu((status) => {
-              // e.stopPropagation();
               return !status;
             });
           }}

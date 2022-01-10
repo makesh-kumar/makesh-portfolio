@@ -1,6 +1,5 @@
 .home {
   height: 100vh;
-  /* border: 1px solid black; */
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -16,7 +15,6 @@ h2 {
   transition: all 1s;
 }
 .intro {
-  /* font-size: 20px; */
   font-weight: bold;
   text-align: center;
 }
