@@ -25,9 +25,10 @@ function Header() {
     },
   ];
   const scrollSmoothTo = (elementId: string) => {
-    setMobileMenu((status) => {
-      return !status;
-    });
+    elementId !== "home" &&
+      setMobileMenu((status) => {
+        return !status;
+      });
     let element = document.getElementById(elementId);
     element?.scrollIntoView({
       block: "center",
@@ -65,8 +66,9 @@ function Header() {
 
       <div className="mobile__nav">
         <div
-          onClick={() => {
+          onClick={(e) => {
             setMobileMenu((status) => {
+              // e.stopPropagation();
               return !status;
             });
           }}

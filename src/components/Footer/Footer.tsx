@@ -29,7 +29,7 @@ function Footer() {
     {
       name: "medium",
       component: <BsMedium></BsMedium>,
-      link: "https://www.linkedin.com/in/makesh-kumar",
+      link: "https://makesh-kumar.medium.com/",
       style: { color: "black" },
     },
     {
@@ -53,7 +53,7 @@ function Footer() {
     {
       name: "whatsapp",
       component: <FaWhatsapp></FaWhatsapp>,
-      link: "https://wa.me/9095774441",
+      link: "https://wa.me/919095774441",
       style: { color: "#25D366" },
     },
     {
