@@ -70,3 +70,27 @@ a:hover {
   text-decoration: none;
   color: black;
 }
+@media all and (max-width: 500px) {
+  .projects {
+    /* height: 70vh; */
+    /* flex-direction: column; */
+    /* grid-template-columns: 1fr;
+
+    grid-template-rows: 1fr 1fr; */
+
+    margin-top: 10px;
+  }
+  .projects__content {
+    width: 100%;
+  }
+  .content__box {
+    width: 100%;
+  }
+  .content__description {
+    width: 125%;
+  }
+  .projects__logo {
+    /* width: 100%; */
+    grid-column: span 3;
+  }
+}
