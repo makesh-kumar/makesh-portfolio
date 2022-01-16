@@ -23,6 +23,10 @@ function Header() {
       name: "experience",
       title: "Experience",
     },
+    {
+      name: "projects",
+      title: "Projects",
+    },
   ];
   const scrollSmoothTo = (elementId: string) => {
     elementId !== "home" &&

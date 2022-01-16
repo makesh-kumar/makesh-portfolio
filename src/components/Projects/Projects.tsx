@@ -49,7 +49,7 @@ function Projects() {
     },
   ];
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <div className="projects__logo">
         <h3>Projects</h3>
         <img
