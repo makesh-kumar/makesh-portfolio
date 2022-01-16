@@ -21,6 +21,7 @@ h2 {
 
 .name {
   color: #3b20b2;
+  transition: all 2s;
 }
 
 .home button {
@@ -30,6 +31,7 @@ h2 {
   background-color: white;
   cursor: pointer;
   transition: transform 1s;
+  transform-origin: left;
 }
 
 .home button:hover {
@@ -42,6 +44,10 @@ h2:hover {
 
 h1:hover {
   transform: translateX(20px) scale(1.2) rotate(-2deg);
+}
+.name:hover {
+  font-size: 1.5em;
+  /* color: red; */
 }
 
 .home:hover {
